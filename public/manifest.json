@@ -1,0 +1,23 @@
+{
+  "name": "Baleseng Automotive",
+  "short_name": "Baleseng Auto",
+  "description": "Truck Spares & Accessories — Keep Your Trucks On The Road",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#E30613",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
