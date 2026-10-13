@@ -46,10 +46,10 @@ export default function PWAInstall() {
         </button>
 
         <div className="flex items-center gap-3 mb-3">
-          <img src="https://i.imgur.com/HBY0SWU.png" alt="App icon" className="w-12 h-12 object-contain rounded-xl border border-stone-100 p-1" />
+          <img src="/logo.png" alt="Baleseng Automotive app icon" className="w-12 h-12 object-contain rounded-xl border border-stone-100 p-1" />
           <div>
-            <p className="font-bold text-stone-800 text-sm leading-tight">Granite Installations</p>
-            <p className="text-amber-500 text-xs">Premium Stone Solutions</p>
+            <p className="font-bold text-stone-800 text-sm leading-tight">Baleseng Automotive</p>
+            <p className="text-red-600 text-xs">Truck Spares & Accessories</p>
           </div>
         </div>
 
@@ -60,7 +60,7 @@ export default function PWAInstall() {
         <div className="flex items-center gap-2">
           <button
             onClick={handleInstall}
-            className="flex-1 flex items-center justify-center gap-2 py-2.5 bg-amber-500 hover:bg-amber-400 text-white text-sm font-semibold rounded-xl transition-colors"
+            className="flex-1 flex items-center justify-center gap-2 py-2.5 bg-red-600 hover:bg-red-700 text-white text-sm font-semibold rounded-xl transition-colors"
           >
             <Download size={15} />
             Install App
